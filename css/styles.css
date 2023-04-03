@@ -1,0 +1,172 @@
+#title{
+  background-color: #ff4c68;
+}
+.satya{
+  font-style: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.2;
+  color: white;
+  font-weight: bold;
+}
+/* already the text of the h3 in the features section is bold */
+/* h3{
+  font-family: "Montserrat-bold";
+  font-weight:200;
+} */
+.container-fluid{
+  padding: 3% 10% 7%;
+}
+body{
+  font-family: "Montserrat";
+}
+/* navigation bar */
+.biju{
+  padding: 16rem;
+  margin-bottom:  20px;
+}
+.navbartop{
+  padding-top: 10px;
+}
+.navbar-brand{
+  font-style: "Ubuntu";
+  font-weight: bold;
+  font-size: 3em;
+}
+.nav-item{
+  padding:0 8px 0 8px;
+}
+.nav-link{
+  font-family: "Montserrat-light";
+  font-size: 10rem;
+}
+.navbaritems{
+  margin-left: 20px;
+}
+.download-button{
+  margin:5% 3% 5% 0%;
+}
+.contentin-nav{
+  padding-left: 20%;
+}
+/* title image  */
+.title-image{
+  width: 20%;
+  transform: rotate(25deg);
+  margin:auto;
+  position: absolute;
+}
+.center{
+  display: block;
+   margin-left: auto;
+  margin-right:auto;
+}
+/* here css media query use here for more responsive for good looking also in the mobile size */
+@media (max-width:1020px){
+  .title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);/* to make the photo vertical align */
+
+  }
+}
+/* features-section */
+#features{
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+.features-box{
+  text-align: center;
+  padding: 5%;
+}
+.pcop{
+  color: #8f8f8f;
+  padding: 0 4% 0 4%;
+}
+.facolor{
+  color: #ef8172;
+  margin-bottom: 2rem;
+}
+.facolor:hover{
+  color: #ff4c68;
+}
+.feature-title{
+  font-size: 1.5rem;
+}
+
+                                /* coursel section */
+                    /* testimonial-section */
+#testimonials{
+  text-align: center;
+  background-color: #ef8172;
+    color: white;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+.testimonial-h2{
+  font-family: "Montserrat-bold";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.testimonial-img{
+  border-radius: 100%;
+  width: 20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2px;
+}
+#press{
+    background-color: #ef8172;
+    display: block;
+    padding-bottom: 3%;
+    text-align: center;
+}
+.press-logo{
+  height: 15%;
+  width: 15%;
+  margin:20px 20px 50px;
+}
+/* pricing section */
+#pricing{
+  padding:  100px;
+  text-align: center;
+}
+.col-cards{
+  padding: 3% 2%;
+}
+.pricing-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+  /* <!-- Call to Action --> */
+  /* cta section */
+  #cta{
+    background-color: #ff4c68;
+    color: #fff;
+    padding: 7% 15%;
+    text-align: center;
+  }
+  #cta h3{
+    font-family: "Montserrat-black";
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+/* footer-section */
+#footer{
+  padding: 7% 15%;
+  text-align: center;
+}
+.social-icon{
+  margin: 20px 10px;
+}
+/* inn the refactoring section the ehich section have the background color that text color is white and in which section background section have color is white that text color is Black
+so we make in the css section  */

@@ -1,0 +1,18 @@
+.red{
+  background-color: red;
+}
+.yellow{
+  background-color: yellow;
+  left: 20px;
+  top: 20px;
+}
+.blue{
+  background-color: blue;
+  left: 40px;
+  top: 40px;
+}
+.yy{
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+}
